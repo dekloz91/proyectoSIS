@@ -3,7 +3,7 @@
 	session_start();
 	
 	if(!isset($_SESSION['id'])){
-		header("Location:index.php");
+		header("Location:loginAdmin.php");
 	}
 
 	$nombre = $_SESSION['nombre'];
@@ -44,7 +44,7 @@
         <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar " style="background-color: #014671;">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="principal.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="principalAdmin.php">
                 <img src="img/logo.jpg" width="30%">
                 <div class="sidebar-brand-text mx-3" style="text-align: left;">Sistema
                     <br>Integral
@@ -422,7 +422,7 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                    <a class="btn btn-primary" href="logout.php">Cerrar sesion</a>
+                    <a class="btn btn-primary" href="logoutAdmin.php">Cerrar sesion</a>
                 </div>
             </div>
         </div>

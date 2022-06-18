@@ -1,0 +1,128 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.7rem 0 1rem 0;
+    align-items: center;
+
+}
+.content .tituloBar {
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: #014770;
+    font-size: 1.2rem;
+}
+
+.bar-calendar .content .tituloBar {
+    width: 30%;
+}
+.bar-components .content .tituloBar {
+    font-family: 'Nunito', sans-serif;
+    color: #014770;
+    font-size: 1.2rem;
+}
+.bar-calendar .content .menuIconCitas .selectSearch {
+    display: flex;
+    width: 85%;
+}
+.p-0 {
+    padding: 0 !important;
+}
+
+.bar-calendar .content .menuIconCitas .selectSearch div {
+    margin: 0 0.5rem;
+    width: calc(100% / 2);
+}
+.bar-calendar .content .tituloBar input {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 5px;
+    background: #014770;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Nunito', sans-serif;
+}
+.bar-calendar .content .menuIconCitas {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select {
+    width: calc(100% / 1);
+    padding: 0.7rem 0.7rem 0.7rem 1.2rem;
+    border-radius: 5px;
+    border: solid 1px #014770;
+    outline: none;
+}
+
+.cardCitas .CardInlineDoctor .cardDoctor {
+    margin-bottom: 0.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    color: #014770;
+}
+.cardCitas .CardInlineDoctor .especialidad {
+    margin-bottom: 0.2rem;
+    font-family: 'Nunito', sans-serif;
+    color: #878787;
+}
+.cardCitas .CardInlineDoctor .direccion {
+    font-family: 'Nunito', sans-serif;
+    color: #878787;
+}
+
+main .cardCitas {
+    display: flex;
+    padding: 2rem 1rem;
+    border-bottom: solid 1px #ccc;
+    width: 960px;
+    margin: auto;
+}
+.fotoD{
+    width: 100px;
+    border-radius: 45%;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    -o-border-radius: 45%;
+}
+main .cardCitas .contHorarios {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto 1.5rem;
+    justify-content: flex-start;
+    padding-left: 10%;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+main .cardCitas .contHorarios .horario p, main .cardCitas .contHorarios .horario label, main .cardCitas .contHorarios .horario a {
+    font-family: 'Nunito', sans-serif;
+    background: #014770;
+    height: 25px;
+    margin: 0.3rem;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    width: 4rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.78rem;
+    font-family: "StagSans-Book";
+    text-decoration: none;
+}
+.confirmAppointStep2{
+    font-family: 'Nunito', sans-serif;
+}
