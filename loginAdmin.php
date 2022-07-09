@@ -1,6 +1,6 @@
 <?php
 
-	require "conexion.php";
+    require "Conexion.php";
 	session_start();
 	
 	if($_POST){

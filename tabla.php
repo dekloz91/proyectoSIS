@@ -1,9 +1,9 @@
 <?php
 	session_start();
-	require 'conexion.php';
+	require "./models/MVC/Conexion.php";
 	
 	if(!isset($_SESSION['id'])){
-		header("Location:loginAdmin.php");
+		header("Location:LoginAdmin.php");
 	}
 	$nombre = $_SESSION['nombre'];
 	$id = $_SESSION['id'];
@@ -56,7 +56,7 @@
         <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #014671;">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="principalAdmin.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="PrincipalAdmin.php">
                 <img src="img/logo.jpg" width="30%">
                 <div class="sidebar-brand-text mx-3" style="text-align: left;">Sistema
                     <br>Integral

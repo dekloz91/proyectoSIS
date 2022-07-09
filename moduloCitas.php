@@ -3,7 +3,7 @@
 	session_start();
 	
 	if(!isset($_SESSION['id'])){
-		header("Location:loginPaciente.php");
+		header("Location:LoginPaciente.php");
 	}
 
 	$nombre = $_SESSION['nombre'];
@@ -298,7 +298,7 @@
             <div class="CardInlineHorario">
                 <div class="contHorarios">
                                                                         
-                                <form action="confirmacion.php" method="POST">
+                                <form action="ConfirmacionCita.php" method="POST">
                                     <input type="hidden" name="_token" value="">      
                                         <div class="horario">
                                         <button style="background: transparent;border: none;font-size:0; font-family: 'Nunito', sans-serif;"><p class="confirmAppointStep2">15:40</p></button>

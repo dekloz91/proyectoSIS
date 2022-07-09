@@ -3,7 +3,7 @@
 	session_start();
 	
 	if(!isset($_SESSION['id'])){
-		header("Location:loginAdmin.php");
+		header("Location:LoginAdmin.php");
 	}
 
 	$nombre = $_SESSION['nombre'];
