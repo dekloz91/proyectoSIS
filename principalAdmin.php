@@ -46,7 +46,7 @@
         <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar " style="background-color: #014671;">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="principal.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="PrincipalAdmin.php">
                 <img src="img/logo.jpg" width="30%">
                 <div class="sidebar-brand-text mx-3" style="text-align: left;">Sistema
                     <br>Integral
@@ -105,7 +105,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tabla.php">
+                <a class="nav-link" href="Tabla.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tabla</span></a>
             </li>
@@ -251,7 +251,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <img src="img/doctor1.png" alt="" height="500px" >
-                                                <a href="gMedicos.php" class="btn btn-google btn-block">Acceder</a>
+                                                <a href="GestionMedicos.php" class="btn btn-google btn-block">Acceder</a>
                                             </div>
                                         </div>
                                     </div>
@@ -271,7 +271,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <img src="img/paciente.png" alt="" height="500px" >
-                                                <a href="gPacientes.php" class="btn btn-google btn-block">Acceder</a>
+                                                <a href="GestionPacientes.php" class="btn btn-google btn-block">Acceder</a>
 
                                             </div>
                                         </div>
@@ -321,7 +321,7 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                    <a class="btn btn-primary" href="logoutAdmin.php">Cerrar sesion</a>
+                    <a class="btn btn-primary" href="LogoutAdmin.php">Cerrar sesion</a>
                 </div>
             </div>
         </div>

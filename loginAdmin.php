@@ -36,10 +36,7 @@
 		}else{
 			echo "No existe usuario";	
 		}
-
-		
 	}
-
 ?>
 
 

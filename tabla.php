@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require "./models/MVC/Conexion.php";
+	require "Conexion.php";
 	
 	if(!isset($_SESSION['id'])){
 		header("Location:LoginAdmin.php");
@@ -257,7 +257,7 @@
                                             <td><a href="#" class="btn btn-success">
                                             <span class="text">Modificar</span></a></td>
                                             <td><a href="#" class="btn btn-danger">
-                                            <span class="text">Modificar</span></a></td>
+                                            <span class="text">Eliminar</span></a></td>
 										</tr>
 										<?php } ?>
                                     </tbody>
